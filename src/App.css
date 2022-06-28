@@ -1,0 +1,60 @@
+body {
+  background-color: #ffffff;
+ }
+  
+ .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+ }
+  
+ .box {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .icon {
+  font-size: 35px;
+  color: #ffffff;
+ }
+ 
+ .app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card{
+  background-color: #A020F0;
+}
+
+svg{
+  color: white !important;
+}
+
+.turns{
+  margin-bottom: 20px;
+  color: #A020F0;
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.button-container{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-container Button{
+  background-color: #A020F0;
+}
+
+.button-container Button:hover{
+  background-color: #A020F0;
+}
+
+.button-container Button:focus{
+  background-color: #A020F0;
+}
